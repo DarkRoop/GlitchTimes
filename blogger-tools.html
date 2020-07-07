@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Glitch Times</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,300i,500,700,500i,900' rel='stylesheet' type='text/css'/>
+    <style>
+.wrap {margin-top: 4px;text-align: center;}
+.button{display:inline-block;padding: 15px 35px;margin: 0.45em 0;%;overflow:hidden;position:relative;text-decoration:none;text-transform:uppercase;border-radius:3px;-webkit-transition:.3s;-moz-transition:.3s;-ms-transition:.3s;-o-transition:.3s;transition:.3s;box-shadow:0 2px 10px rgba(0,0,0,.5);border:none;font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;font-size:14px;text-align:center}
+.button:hover{box-shadow:1px 6px 15px rgba(0,0,0,.5)}
+.green{background-color:#4CAF50;color:#fff}
+.red{background-color:#F44336;color:#fff}
+.blue{background-color:#03A9F4;color:#fff}
+.violet{background-color:#673AB7;color:#fff}
+.yellow{background-color:#FF9100;color:#fff}
+.pink{background-color:#C2185B;color:#fff}
+.brown{background-color:#455A64;color:#fff}
+.ripple{position:absolute;background:rgba(0,0,0,.25);border-radius:100%;transform:scale(.2);opacity:0;pointer-events:none;-webkit-animation:ripple .75s ease-out;-moz-animation:ripple .75s ease-out;animation:ripple .75s ease-out}
+@-webkit-keyframes ripple{from{opacity:1}to{transform:scale(2);opacity:0}}
+@-moz-keyframes ripple{from{opacity:1}to{transform:scale(2);opacity:0}}
+@keyframes ripple{from{opacity:1}to{transform:scale(2);opacity:0}}
+@media screen and (max-width:768px){
+.wrap{width:90%!important;}
+.button{width:80%}
+</style>
+<body>
+<div class="wrap">
+  <a class="button blue" href="http://www.glitchtimes.com/p/flat-ui-color.html" target="_blank" title="Color Picker">Color Picker New</a>
+  <a class="button red" href="http://www.glitchtimes.com/p/font-awesome.html" target="_blank" title="Font Awesome">Font Awesome</a>
+  <a class="button green" href="http://www.glitchtimes.com/p/tembak-paket-axis.html" target="_blank" title="Tembak Axis">Tembak Axis</a>
+  <a class="button violet" href="http://www.glitchtimes.com/p/color-picker.html" target="_blank" title="Color Picker">Color Picker</a>
+  <a class="button yellow" href="http://www.glitchtimes.com/p/ads-converter.html" target="_blank" title="Ads Converter">Ads Converter</a>
+  <a class="button pink" href="http://www.glitchtimes.com" target="_blank" title="CSS Minifier">CSS Minifier</a>
+  <a class="button brown" href="xxx" target="_blank" title="Free SSH 30 Day">No</a>
+
+</div>
+</body>
+</body>
+<script type='text/javascript'>
+//<![CDATA[
+ $('.button').mousedown(function (e) {
+    var target = e.target;
+    var rect = target.getBoundingClientRect();
+    var ripple = target.querySelector('.ripple');
+    $(ripple).remove();
+    ripple = document.createElement('span');
+    ripple.className = 'ripple';
+    ripple.style.height = ripple.style.width = Math.max(rect.width, rect.height) + 'px';
+    target.appendChild(ripple);
+    var top = e.pageY - rect.top - ripple.offsetHeight / 2 -  document.body.scrollTop;
+    var left = e.pageX - rect.left - ripple.offsetWidth / 2 - document.body.scrollLeft;
+    ripple.style.top = top + 'px';
+    ripple.style.left = left + 'px';
+    return false;
+});
+
+//]]>
+</script>
+    </html>
