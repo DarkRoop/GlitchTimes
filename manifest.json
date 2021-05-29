@@ -1,0 +1,38 @@
+{
+  "name": "GlitchTimes Official",
+  "short_name": "GlitchTimes",
+  "start_url": "https://www.glitchtimes.com/",
+  "display": "standalone",
+  "background_color": "#01dcc0",
+  "theme_color": "#015bf1",
+  "description": "Glitch Times Premium Quality Blogger Themes, Wordpress Themes, Scripts, Tips And Tricks Much More...",
+  "icons": [{
+    "src": "https://1.bp.blogspot.com/-hRn_wisllh8/YLHkSX5iP3I/AAAAAAAABXo/-OakWoQeQRYcmMme7Fh5uyB6pe74iIHTgCLcBGAsYHQ/s48/Glitchtimes-Logo.jpg",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-hRn_wisllh8/YLHkSX5iP3I/AAAAAAAABXo/-OakWoQeQRYcmMme7Fh5uyB6pe74iIHTgCLcBGAsYHQ/s72/Glitchtimes-Logo.jpg",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-hRn_wisllh8/YLHkSX5iP3I/AAAAAAAABXo/-OakWoQeQRYcmMme7Fh5uyB6pe74iIHTgCLcBGAsYHQ/s96/Glitchtimes-Logo.jpg",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-hRn_wisllh8/YLHkSX5iP3I/AAAAAAAABXo/-OakWoQeQRYcmMme7Fh5uyB6pe74iIHTgCLcBGAsYHQ/s144/Glitchtimes-Logo.jpg",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-hRn_wisllh8/YLHkSX5iP3I/AAAAAAAABXo/-OakWoQeQRYcmMme7Fh5uyB6pe74iIHTgCLcBGAsYHQ/s168/Glitchtimes-Logo.jpg",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-hRn_wisllh8/YLHkSX5iP3I/AAAAAAAABXo/-OakWoQeQRYcmMme7Fh5uyB6pe74iIHTgCLcBGAsYHQ/s192/Glitchtimes-Logo.jpg",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-hRn_wisllh8/YLHkSX5iP3I/AAAAAAAABXo/-OakWoQeQRYcmMme7Fh5uyB6pe74iIHTgCLcBGAsYHQ/s512/Glitchtimes-Logo.jpg",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
